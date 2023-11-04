@@ -1,6 +1,9 @@
 * {
+    padding: 0;
+    margin: 0;
 
     font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 .hero {
@@ -376,3 +379,7 @@ footer p:nth-child(2) {
     bottom: 35px;
     font-size: 14px;
 }
+@media (max-width: 768px) {
+    /* Aturan CSS untuk perangkat seluler dengan lebar maksimum 768px */
+    /* Di sinilah Anda dapat mengatur ulang layout atau ukuran elemen-elemen */
+  }
